@@ -91,10 +91,7 @@ public class AIController : MonoBehaviour
            
 
             Patroling();
-            //change color
-            ren = GetComponent<Renderer>();
-            ren.material.color = Color.yellow;
-            myLight.color = Color.yellow;
+            
         }
     }
 
