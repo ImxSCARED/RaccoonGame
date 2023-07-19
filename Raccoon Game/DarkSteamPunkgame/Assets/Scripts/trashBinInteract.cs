@@ -5,9 +5,14 @@ using UnityEngine;
 
 public class trashBinInteract : MonoBehaviour
 {
-   
-    public GameObject interact;
 
+    public AudioSource RaccoonNoise;
+
+
+    public GameObject interact;
+    public GameObject Bin;
+
+    
 
 
     private bool isPlayed = false;
@@ -21,7 +26,12 @@ public class trashBinInteract : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-                interact.SetActive(true);            
+             if (Input.GetKey(KeyCode.E))
+            {
+                RaccoonNoise.Play();
+            }    
+            interact.SetActive(true); 
+           
         }
     }
 
