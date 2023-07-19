@@ -6,31 +6,37 @@ using UnityEngine;
 public class trashBinInteract : MonoBehaviour
 {
 
-    public AudioSource RaccoonNoise;
+  //  public AudioSource source;
+ //   public AudioClip clip;
 
 
     public GameObject interact;
-    public GameObject Bin;
+
+   
+
 
     
-
-
-    private bool isPlayed = false;
     // Start is called before the first frame update
     void Start()
     {
         interact.SetActive(false);
+       
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-             if (Input.GetKey(KeyCode.E))
-            {
-                RaccoonNoise.Play();
-            }    
+            Debug.Log("hi");
             interact.SetActive(true); 
+
+          //   if (Input.GetKeyDown(KeyCode.E))
+          //  {
+          //      Debug.Log("Sounds?");
+          //      source.PlayOneShot(clip);
+              
+          //  }    
+            
            
         }
     }
@@ -40,6 +46,7 @@ public class trashBinInteract : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             interact.SetActive(false);
+            
         }
     }
 }

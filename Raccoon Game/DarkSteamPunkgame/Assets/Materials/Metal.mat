@@ -7,14 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sunset3
-  m_Shader: {fileID: 4800000, guid: eb3c6fb598ded4c71b8968e1c40a3b4d, type: 3}
+  m_Name: Metal
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _HORIZONLINEBLENDMODE_ADD
-  - _SUNHALOBLENDMODE_ADD
-  - _VIEW_FINAL
-  m_LightmapFlags: 0
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -68,35 +65,16 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _HorizonLineBlendMode: 0
-    - _HorizonLineContribution: 0.601
-    - _HorizonLineExponent: 30
-    - _Metallic: 0
+    - _Metallic: 1
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SkyGradientExponent: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SunDiscContribution: 1
-    - _SunDiscExponent: 100000
-    - _SunDiscExponentSize: 100000
-    - _SunDiscMultiplier: 100000
-    - _SunDiscMultiplierSharpness: 1000
-    - _SunHaloBlendMode: 0
-    - _SunHaloContribution: 0.5
-    - _SunHaloExponent: 100
     - _UVSec: 0
-    - _View: 0
     - _ZWrite: 1
-    - __dirty: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HorizonLineColor: {r: 0.41509432, g: 0.09834283, b: 0.029369876, a: 0.6}
-    - _SkyGradientBottom: {r: 0.38431376, g: 0.13333334, b: 0.20392159, a: 1}
-    - _SkyGradientTop: {r: 0, g: 0, b: 0, a: 1}
-    - _SunDiscColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SunHaloColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
