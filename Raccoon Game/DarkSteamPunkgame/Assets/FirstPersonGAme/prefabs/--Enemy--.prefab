@@ -192,7 +192,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6b05f7cc062d6f44aad969847994bddd, type: 2}
+  - {fileID: 2100000, guid: f691602a06e0ca243a18e43e73d87647, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -299,3 +299,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  myLight: {fileID: 0}
+  myLightColour: {r: 0, g: 0, b: 0, a: 0}
+  foundPlayer: {fileID: 0}
