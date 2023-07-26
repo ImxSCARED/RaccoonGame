@@ -611,6 +611,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1836858063}
     m_Modifications:
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: m_Volume
+      value: 0.513
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: MaxDistance
+      value: 27.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6928952200456580508, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
       propertyPath: m_Name
       value: cog1
@@ -3518,6 +3534,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1836858063}
     m_Modifications:
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: MaxDistance
+      value: 27.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6928952200456580508, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
       propertyPath: m_Name
       value: cog1
@@ -10766,6 +10794,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: MaxDistance
+      value: 31.91
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6928952200456580508, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
       propertyPath: m_Name
       value: cog1 (1)
@@ -12347,7 +12387,27 @@ PrefabInstance:
     m_TransformParent: {fileID: 1836858063}
     m_Modifications:
     - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: Priority
+      value: 193
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: m_Volume
+      value: 0.066
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: MaxDistance
+      value: 31.91
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
+      propertyPath: m_PlayOnAwake
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6928952200456580508, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
