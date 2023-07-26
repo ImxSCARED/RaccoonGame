@@ -15,7 +15,7 @@ public class FootStepScript : MonoBehaviour
         {
             walking.enabled = true;
 
-            if (Input.GetKey(KeyCode.LeftShift))
+            if (Input.GetKeyDown(KeyCode.LeftShift))
             {
                 walking.enabled = false;
                 Running.enabled = true;
