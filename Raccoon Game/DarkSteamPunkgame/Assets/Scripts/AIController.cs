@@ -91,7 +91,11 @@ public class AIController : MonoBehaviour
            
 
             Patroling();
-            
+            //change color
+            ren = GetComponent<Renderer>();
+            ren.material.color = Color.black;
+            myLight.color = Color.yellow;
+
         }
     }
 
@@ -113,7 +117,7 @@ public class AIController : MonoBehaviour
         //if enemy is not near player, return to patrol
         if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
         {                                                                                                                                                   //variable
-            if (m_WaitTime <= 0 && !m_CaughtPlayer && Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position) >= 1.5f)
+            if (m_WaitTime <= 0 && !m_CaughtPlayer && Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position) >= 0.5f)
             {
                 m_IsPatrol = true;
                 m_PlayerNear = false;
@@ -125,7 +129,7 @@ public class AIController : MonoBehaviour
             }
             else
             {                                                                                                           //variable
-                if (Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position) >= 1f)
+                if (Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position) >= 0.25f)
                 {
                     Stop();
                     m_WaitTime -= Time.deltaTime;
