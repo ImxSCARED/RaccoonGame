@@ -108,21 +108,21 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 1
     agentHeight: 4
-    agentSlope: 30.2
-    agentClimb: 2
-    ledgeDropHeight: -0
-    maxJumpAcrossDistance: 0
+    agentSlope: 60
+    agentClimb: 3
+    ledgeDropHeight: 2
+    maxJumpAcrossDistance: 1
     minRegionArea: 2
-    manualCellSize: 0
-    cellSize: 0.33333334
+    manualCellSize: 1
+    cellSize: 0.3333
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 0
+    accuratePlacement: 1
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 66e78fee46402844799467b48ba021a2, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 4f5751aca266202408deccd48655b749, type: 2}
 --- !u!1001 &1454084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12254,6 +12254,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3020690534984127644, guid: 82bef95de8eaf3c45bc6296150a7d78d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 200049eedcbeae84894719b57de04186, type: 2}
     - target: {fileID: 919132149155446097, guid: 82bef95de8eaf3c45bc6296150a7d78d, type: 3}
       propertyPath: m_Name
       value: Building 1
@@ -19454,6 +19458,10 @@ PrefabInstance:
     - target: {fileID: 7004975274152376027, guid: 234ad44668fb1c84eb1588d6ac800cad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093644277965417443, guid: 234ad44668fb1c84eb1588d6ac800cad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.36
       objectReference: {fileID: 0}
     - target: {fileID: 8327402286809717341, guid: 234ad44668fb1c84eb1588d6ac800cad, type: 3}
       propertyPath: m_Materials.Array.data[0]
