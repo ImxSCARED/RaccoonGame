@@ -2726,6 +2726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bridge
       objectReference: {fileID: 0}
+    - target: {fileID: 6013506374298255470, guid: 8eac04a82c759bf4691808810ff97225, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd38a56187135844cadd2f427f6c008e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8eac04a82c759bf4691808810ff97225, type: 3}
 --- !u!4 &550360948 stripped
@@ -3263,6 +3267,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3020690534984127644, guid: 82bef95de8eaf3c45bc6296150a7d78d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 200049eedcbeae84894719b57de04186, type: 2}
     - target: {fileID: 919132149155446097, guid: 82bef95de8eaf3c45bc6296150a7d78d, type: 3}
       propertyPath: m_Name
       value: Building 1
@@ -7126,6 +7134,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3020690534984127644, guid: 82bef95de8eaf3c45bc6296150a7d78d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 200049eedcbeae84894719b57de04186, type: 2}
     - target: {fileID: 919132149155446097, guid: 82bef95de8eaf3c45bc6296150a7d78d, type: 3}
       propertyPath: m_Name
       value: Building 1
@@ -9473,6 +9485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bridge (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6013506374298255470, guid: 8eac04a82c759bf4691808810ff97225, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fd38a56187135844cadd2f427f6c008e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8eac04a82c759bf4691808810ff97225, type: 3}
 --- !u!4 &1843882738 stripped
