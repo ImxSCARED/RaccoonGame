@@ -41,7 +41,7 @@ public class GameManagerScript : MonoBehaviour
     //From the main menu, if clicked will load game scene 
     public void StartGame()
     {
-        SetCursorLocked(true);
+       
         SceneManager.LoadScene("GameArea");
      
     }
