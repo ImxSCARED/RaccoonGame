@@ -10,3 +10,4 @@ public class FPSLimiter : MonoBehaviour
         Application.targetFrameRate = 120;
     }
 }
+
