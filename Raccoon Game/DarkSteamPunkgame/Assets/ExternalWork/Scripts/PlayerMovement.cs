@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     [Header("Movement")]
-    public float moveSpeed;
+    [SerializeField] public float moveSpeed;
     public float sprintSpeed;
 
     public float groundDrag;
