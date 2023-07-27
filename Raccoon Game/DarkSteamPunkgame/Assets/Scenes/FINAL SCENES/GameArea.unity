@@ -653,7 +653,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
       propertyPath: MaxDistance
-      value: 21.67
+      value: 20.730915
       objectReference: {fileID: 0}
     - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
       propertyPath: MinDistance
@@ -4395,7 +4395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
       propertyPath: MaxDistance
-      value: 21.67
+      value: 15.848034
       objectReference: {fileID: 0}
     - target: {fileID: -8201477061693511581, guid: 98f02ba5e94ce354fb420d9cfe65d855, type: 3}
       propertyPath: MinDistance
