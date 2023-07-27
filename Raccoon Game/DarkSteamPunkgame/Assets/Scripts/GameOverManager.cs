@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,6 +9,7 @@ public class GameOverManager : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject ResumeGameButton;
     public bool isPaused;
+    public AudioClip AudioClip;
 
 
    
@@ -34,9 +33,10 @@ public class GameOverManager : MonoBehaviour
     {
               
          pauseMenu.SetActive(true);
-         Time.timeScale = 0f;
-         Cursor.lockState = CursorLockMode.None;
-         Cursor.visible = true;
+        Time.timeScale = 0f;
+     
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void ResumeGame()
@@ -53,7 +53,7 @@ public class GameOverManager : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("Player"))
         {
-
+            
             GameOver();
             Debug.Log("Dead");
         }
@@ -65,6 +65,8 @@ public class GameOverManager : MonoBehaviour
     
         pauseMenu.SetActive(true);
         ResumeGameButton.SetActive(false);
+       // AudioClip.Play
+        
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -76,8 +78,11 @@ public class GameOverManager : MonoBehaviour
     public void Restart()
     {
         
-        SceneManager.LoadScene("MainMenu");
-        
+        SceneManager.LoadScene("GameArea");
+        Time.timeScale = 1f;
+
+
+
 
     }
 
@@ -85,7 +90,8 @@ public class GameOverManager : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
-      
+        Time.timeScale = 1f;
+
     }
 
     // If Quit button is clicked applicatin will close 
