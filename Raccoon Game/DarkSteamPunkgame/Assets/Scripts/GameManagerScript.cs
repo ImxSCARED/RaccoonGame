@@ -7,7 +7,18 @@ public class GameManagerScript : MonoBehaviour
 {
     public GameObject gameOverUI;
 
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (gameObject.tag.Equals("Enemy"))
+        {
+            GameOver();
+            Debug.Log("Dead");
+        }
 
+
+
+
+    }
     // When Player is killed UI is triggered active
     public void GameOver()
     {
