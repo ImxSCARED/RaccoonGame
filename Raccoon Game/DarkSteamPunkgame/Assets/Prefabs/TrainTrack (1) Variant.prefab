@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7540369008070390822
+--- !u!1 &-3127685200930764308
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,46 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7540369008070390821}
-  - component: {fileID: 7540369008070390820}
-  - component: {fileID: 7540369008070390823}
+  - component: {fileID: 7676198367722144841}
+  - component: {fileID: 8871016236007276971}
+  - component: {fileID: 8476724733620690239}
   m_Layer: 0
-  m_Name: TrainTrack
+  m_Name: TrainTrack (1) Variant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7540369008070390821
+--- !u!4 &7676198367722144841
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7540369008070390822}
+  m_GameObject: {fileID: -3127685200930764308}
   m_LocalRotation: {x: 0.38268548, y: 0.0000027258395, z: -0.92387867, w: 0.0000011290864}
-  m_LocalPosition: {x: 60, y: 61.7, z: 70.6}
+  m_LocalPosition: {x: -140.79999, y: 169.9, z: -76.09999}
   m_LocalScale: {x: 128.87802, y: 0.653074, z: 22.223858}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 180, y: 135, z: 0}
---- !u!33 &7540369008070390820
+--- !u!33 &8871016236007276971
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7540369008070390822}
+  m_GameObject: {fileID: -3127685200930764308}
   m_Mesh: {fileID: 4623505110771626515, guid: 997dab6dfa6ed5b46a99b91dfd1cf8a3, type: 3}
---- !u!23 &7540369008070390823
+--- !u!23 &8476724733620690239
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7540369008070390822}
+  m_GameObject: {fileID: -3127685200930764308}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
