@@ -1,4 +1,5 @@
 
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,7 +10,8 @@ public class GameOverManager : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject ResumeGameButton;
     public bool isPaused;
-    public AudioClip AudioClip;
+    public AudioSource AudioPlayer;
+    public AudioSource raccooninabag;
 
 
    
@@ -53,7 +55,8 @@ public class GameOverManager : MonoBehaviour
     {
         if (other.gameObject.tag.Equals("Player"))
         {
-            
+            AudioPlayer.Play();
+            raccooninabag.Play();
             GameOver();
             Debug.Log("Dead");
         }
@@ -65,7 +68,9 @@ public class GameOverManager : MonoBehaviour
     
         pauseMenu.SetActive(true);
         ResumeGameButton.SetActive(false);
-       // AudioClip.Play
+     
+
+       
         
 
         Cursor.lockState = CursorLockMode.None;
