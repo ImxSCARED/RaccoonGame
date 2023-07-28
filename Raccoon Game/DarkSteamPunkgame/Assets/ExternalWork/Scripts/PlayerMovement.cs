@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Unity.VisualScripting.Member;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -27,6 +28,11 @@ public class PlayerMovement : MonoBehaviour
     public float playerHeight;
     public LayerMask whatIsGround;
     bool grounded;
+
+    [Header("Audio")]
+    public AudioSource source;
+    public AudioClip clip;
+    public KeyCode SoundKey;
 
     public Transform orientation;
 
@@ -57,6 +63,11 @@ public class PlayerMovement : MonoBehaviour
             rb.drag = groundDrag;
         else
             rb.drag = 0;
+        
+        if (Input.GetKeyUp(SoundKey))
+        {
+            source.PlayOneShot(clip);
+        }
     }
     private void FixedUpdate()
     {
