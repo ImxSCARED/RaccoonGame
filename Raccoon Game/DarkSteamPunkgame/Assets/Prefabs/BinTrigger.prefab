@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8059174690114750928}
   - component: {fileID: 6685383291216620034}
   - component: {fileID: 1499312359195197093}
+  - component: {fileID: 313528306453392289}
   m_Layer: 0
   m_Name: BinTrigger
   m_TagString: Untagged
@@ -125,3 +126,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 0}
   clip: {fileID: 8300000, guid: 92cca25bb20c99f41bf5a579a35948cf, type: 3}
+  OnBinFind:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &313528306453392289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6244051358051232628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83118d2697425d44ba7306b158db45c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
