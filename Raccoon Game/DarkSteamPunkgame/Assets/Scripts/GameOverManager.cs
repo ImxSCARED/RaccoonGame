@@ -9,6 +9,7 @@ public class GameOverManager : MonoBehaviour
    
     public GameObject pauseMenu;
     public GameObject ResumeGameButton;
+    public GameObject BlackImage;
     public bool isPaused;
     public AudioSource AudioPlayer;
     public AudioSource raccooninabag;
@@ -35,6 +36,8 @@ public class GameOverManager : MonoBehaviour
     {
               
          pauseMenu.SetActive(true);
+        BlackImage.SetActive(false);
+
         Time.timeScale = 0f;
      
         Cursor.lockState = CursorLockMode.None;
@@ -68,10 +71,11 @@ public class GameOverManager : MonoBehaviour
     
         pauseMenu.SetActive(true);
         ResumeGameButton.SetActive(false);
-     
+        BlackImage.SetActive(true);
 
-       
-        
+
+
+
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
